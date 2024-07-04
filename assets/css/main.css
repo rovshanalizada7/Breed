@@ -194,12 +194,56 @@ main .sct2-content .content1 .img1 {
   background-image: url("https://preview.colorlib.com/theme/breed2/img/portfolio/p1.jpg");
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+main .sct2-content .content1 .img1:hover .visible {
+  display: flex;
+  animation: animationBox 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1s;
+}
+main .sct2-content .content1 .img1 .visible {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: #1345e6;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  gap: 5px;
+  font-size: 1.2rem;
 }
 main .sct2-content .content1 .img2 {
   width: 500px;
   height: 290px;
   background-image: url("https://preview.colorlib.com/theme/breed2/img/portfolio/p5.jpg");
   background-size: cover;
+  position: relative;
+}
+main .sct2-content .content1 .img2:hover .visible {
+  display: flex;
+  animation: animationBox 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1s;
+}
+main .sct2-content .content1 .img2 .visible {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: #1345e6;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  gap: 5px;
+  font-size: 1.2rem;
 }
 main .sct2-content .content2 {
   display: flex;
@@ -214,6 +258,28 @@ main .sct2-content .content2 .img3 {
   background-image: url("https://preview.colorlib.com/theme/breed2/img/portfolio/p4.jpg");
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+main .sct2-content .content2 .img3:hover .visible {
+  display: flex;
+  animation: animationBox 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1s;
+}
+main .sct2-content .content2 .img3 .visible {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: #1345e6;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  gap: 5px;
+  font-size: 1.2rem;
 }
 main .sct2-content .content2 .img4 {
   width: 500px;
@@ -221,6 +287,28 @@ main .sct2-content .content2 .img4 {
   background-size: cover;
   background-position: center;
   background-image: url("https://preview.colorlib.com/theme/breed2/img/portfolio/p2.jpg");
+  position: relative;
+}
+main .sct2-content .content2 .img4:hover .visible {
+  display: flex;
+  animation: animationBox 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1s;
+}
+main .sct2-content .content2 .img4 .visible {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: #1345e6;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  gap: 5px;
+  font-size: 1.2rem;
 }
 main .sct2-content .content2 .img5 {
   width: 500px;
@@ -228,6 +316,28 @@ main .sct2-content .content2 .img5 {
   background-size: cover;
   background-position: center;
   background-image: url("https://preview.colorlib.com/theme/breed2/img/portfolio/p6.jpg");
+  position: relative;
+}
+main .sct2-content .content2 .img5:hover .visible {
+  display: flex;
+  animation: animationBox 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1s;
+}
+main .sct2-content .content2 .img5 .visible {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: #1345e6;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  gap: 5px;
+  font-size: 1.2rem;
 }
 main .sct3 {
   height: 1200px;
@@ -509,5 +619,15 @@ footer .footer-content .footer-bottom p span:hover {
     width: 100%;
     flex-wrap: wrap;
     gap: 10px;
+  }
+}
+@keyframes animationBox {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    margin-left: 25px;
+    margin-top: 25px;
   }
 }

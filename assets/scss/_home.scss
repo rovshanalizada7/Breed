@@ -226,6 +226,30 @@ main {
                     background-image: url('https://preview.colorlib.com/theme/breed2/img/portfolio/p1.jpg');
                     background-size: cover;
                     background-position: center;
+                    position: relative;
+                    &:hover {
+                        .visible {
+                            display: flex;
+                            animation: animationBox 1s;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1s;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        z-index: 1;
+                        height: 100%;
+                        background-color: #1345e6;
+                        top: 0;
+                        width: 100%;
+                        color: #fff;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 20px;
+                        gap: 5px;
+                        font-size: 1.2rem;
+                    }
                 }
 
                 .img2 {
@@ -233,6 +257,30 @@ main {
                     height: 290px;
                     background-image: url('https://preview.colorlib.com/theme/breed2/img/portfolio/p5.jpg');
                     background-size: cover;
+                    position: relative;
+                    &:hover {
+                        .visible {
+                            display: flex;
+                            animation: animationBox 1s;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1s;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        z-index: 1;
+                        height: 100%;
+                        background-color: #1345e6;
+                        top: 0;
+                        width: 100%;
+                        color: #fff;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 20px;
+                        gap: 5px;
+                        font-size: 1.2rem;
+                    }
                 }
             }
 
@@ -249,6 +297,30 @@ main {
                     background-image: url('https://preview.colorlib.com/theme/breed2/img/portfolio/p4.jpg');
                     background-size: cover;
                     background-position: center;
+                    position: relative;
+                    &:hover {
+                        .visible {
+                            display: flex;
+                            animation: animationBox 1s;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1s;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        z-index: 1;
+                        height: 100%;
+                        background-color: #1345e6;
+                        top: 0;
+                        width: 100%;
+                        color: #fff;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 20px;
+                        gap: 5px;
+                        font-size: 1.2rem;
+                    }
                 }
 
                 .img4 {
@@ -257,6 +329,30 @@ main {
                     background-size: cover;
                     background-position: center;
                     background-image: url('https://preview.colorlib.com/theme/breed2/img/portfolio/p2.jpg');
+                    position: relative;
+                    &:hover {
+                        .visible {
+                            display: flex;
+                            animation: animationBox 1s;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1s;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        z-index: 1;
+                        height: 100%;
+                        background-color: #1345e6;
+                        top: 0;
+                        width: 100%;
+                        color: #fff;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 20px;
+                        gap: 5px;
+                        font-size: 1.2rem;
+                    }
                 }
 
                 .img5 {
@@ -265,6 +361,30 @@ main {
                     background-size: cover;
                     background-position: center;
                     background-image: url('https://preview.colorlib.com/theme/breed2/img/portfolio/p6.jpg');
+                    position: relative;
+                    &:hover {
+                        .visible {
+                            display: flex;
+                            animation: animationBox 1s;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1s;
+                        }
+                    }
+                    .visible {
+                        position: absolute;
+                        z-index: 1;
+                        height: 100%;
+                        background-color: #1345e6;
+                        top: 0;
+                        width: 100%;
+                        color: #fff;
+                        display: none;
+                        flex-direction: column;
+                        justify-content: end;
+                        padding: 20px;
+                        gap: 5px;
+                        font-size: 1.2rem;
+                    }
                 }
             }
         }
@@ -616,4 +736,15 @@ footer {
     }
 
 
+}
+
+@keyframes animationBox {
+    from {
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
 }
